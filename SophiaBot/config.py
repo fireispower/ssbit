@@ -3,21 +3,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 7350195  # integer value, dont use ""
-    API_HASH = "b4105c3fddc4474048dfe79683555d0c"
-    TOKEN = "6412599320:AAFde10xeuFFaSfGOnbDVL57jATTtBQDMF8"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 817237333  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "firespower" 
-    SUPPORT_CHAT = "enigma_mainchat"  # Your own group for support, do not add the @
+    API_ID =  # integer value, dont use ""
+    API_HASH = ""
+    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID =   # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "r" 
+    SUPPORT_CHAT = "et"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001869258891
+        
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001869258891
+        
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://fireispower:ilyaryaanu@database-2.cwh8lrzkdknb.eu-north-1.rds.amazonaws.com:5432/aryas"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
